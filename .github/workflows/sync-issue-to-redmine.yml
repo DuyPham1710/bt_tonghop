@@ -15,7 +15,7 @@ jobs:
             -H "X-Redmine-API-Key: ${{ secrets.REDMINE_API_KEY }}" \
             -d '{
               "issue": {
-                "project_id": "8",
+                "project_id": "10",
                 "subject": "${{ github.event.issue.title }}",
                 "description": "${{ github.event.issue.body }}"
               }
